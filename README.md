@@ -21,13 +21,18 @@ A browser-based tool that lets you upload a CSV file and instantly explore summa
 ```
 dataset_explorer/
 ├── src/
-│   ├── main.ts       # Entry point, wires UI events to logic
-│   ├── parser.ts     # CSV parsing via PapaParse
-│   ├── stats.ts      # Mean, median, variance, min, max calculations
-│   └── chart.ts      # Bar chart rendering via Chart.js
-├── index.html        # App shell with table and canvas
-├── tsconfig.json     # TypeScript configuration
-└── package.json      # Project metadata and scripts
+│   ├── main.ts             # Entry point, wires UI events to logic
+│   ├── parser.ts           # CSV parsing via PapaParse
+│   ├── stats.ts            # Mean, median, variance, min, max calculations
+│   └── chart.ts            # Bar chart rendering via Chart.js
+├── .gitignore              # Files and folders ignored by Git
+├── index.html              # App shell with table and canvas
+├── LICENSE                 # Project license
+├── package.json            # Project metadata and scripts
+├── package-lock.json       # Locked dependency versions
+├── README.md               # Project documentation
+├── test.csv                # Sample CSV file for testing
+└── tsconfig.json           # TypeScript configuration
 ```
 
 ## Getting Started
